@@ -44,6 +44,9 @@ app.get('/menu', (req, res) => {
   
   })
 })
+app.get('/menu/:category', (req, res) => {
+  const menuCategory = res.params.menuCategory
+})
 
 
 /******************************************************** 
